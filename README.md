@@ -32,7 +32,7 @@ https://github.com/ttlabtuat/musicattentioneeg/blob/b3bef16e39f779f2985cec45e364
 # Data Formats
 - .csv->[EEG signals](https://github.com/ttlabtuat/musicattentioneeg/tree/main/EEG%20signals)
 
-- .edf->[EEG signals (edf)]()
+- .edf->[EEG signals (edf)](https://github.com/ttlabtuat/musicattentioneeg/tree/main/EEG%20signals%20(edf))
 We converted from .csv to .edf using pyEDFlib
 
 # File Name
@@ -47,7 +47,7 @@ We converted from .csv to .edf using pyEDFlib
 - 142615: recorded time in JST
 
 # Column
-- Fp1–PO8: EEGs
+- Fp1\UTF{2013}PO8: EEGs
 - BIP65: EOG
 - BIP66: EOG
 - AUX69: audio
@@ -58,7 +58,7 @@ We converted from .csv to .edf using pyEDFlib
 | ---- | ---- |
 |  8  | EEG recording is ongoing or not |
 |  7  | 0: right-attended task, 1: left-attended task |
-|  6–1  | Trial number |
+|  6\UTF{2013}1  | Trial number |
 
 
 
@@ -67,7 +67,7 @@ We converted from .csv to .edf using pyEDFlib
 - Day2: we played auditory stimulus on earphone (ER-4S, Etymotic Research, USA)
 
 # Note2
-subject02–10 ,day1: right-attended task, trial 14 is excluded due to technical error
+subject02\UTF{2013}10 ,day1: right-attended task, trial 14 is excluded due to technical error
   
   
 subject17 day2: reversed AUX69 and 70
