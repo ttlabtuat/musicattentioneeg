@@ -15,7 +15,7 @@ For synchronization of auditory stimuli with biological signals and behavioral e
 
 
 # Participants
-13 subjects (8 males, 5 females; mean age 21.73 years; range 20--23 years)
+13 subjects (8 males, 5 females; mean age 21.73 years; range 20-23 years)
   
 One of the participants was left-handed.
   
@@ -33,12 +33,12 @@ https://github.com/ttlabtuat/musicattentioneeg/blob/b3bef16e39f779f2985cec45e364
 - .csv->[EEG signals](https://github.com/ttlabtuat/musicattentioneeg/tree/main/EEG%20signals)
 
 - .edf->[EEG signals (edf)]()
-We converted from csv to edf using pyEDFlib
+We converted from .csv to .edf using pyEDFlib
 
 # File Name
 *example* 20191120_day1/s_left1_1120_142615_Trial
   
-- 20191120: *YYMMDD*, recorded day in JST
+- 20191120: *YYYYMMDD*, recorded day in JST
 - day1: **day1** means first day, **day2** means second day
 - s: **s** means loudspeakers presentation, **e** means earphones presentation
 - left: **left** means left-attended task, **right** means right-attended task
@@ -47,16 +47,26 @@ We converted from csv to edf using pyEDFlib
 - 142615: recorded time in JST
 
 # Column
-- Fp1–PO8: EEG
+- Fp1–PO8: EEGs
 - BIP65: EOG
 - BIP66: EOG
 - AUX69: audio
 - AUX70: button (behavioral experiment)
-- Digi: number of trial
+- Digi: 8 bits, this number means as described below
+  
+|  bit |  meaning  |
+| ---- | ---- |
+|  8  | EEG recording is ongoing or not |
+|  7  | 0: right-attended task, 1: left-attended task |
+|  6–1  | Trial number |
 
-# Note
+
+
+# Note1
 - Day1: we played auditory stimulus on loudspeakers (705S2, B\&W, UK)
 - Day2: we played auditory stimulus on earphone (ER-4S, Etymotic Research, USA)
+
+# Note2
 
 
 
