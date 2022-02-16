@@ -67,12 +67,8 @@ We converted from .csv to .edf using pyEDFlib
 - Day2: we played auditory stimulus on earphone (ER-4S, Etymotic Research, USA)
 
 # Note2
-subject02–10 ,day1
-  
-right-attended task, trial 14 is excluded due to technical error
+subject02–10 ,day1: right-attended task, trial 14 is excluded due to technical error
   
   
-subject17 day2
-  
-reversed AUX69 and 70
+subject17 day2: reversed AUX69 and 70
 
