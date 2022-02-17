@@ -33,7 +33,7 @@ https://github.com/ttlabtuat/musicattentioneeg/blob/b3bef16e39f779f2985cec45e364
 - .csv->[EEG signals](https://github.com/ttlabtuat/musicattentioneeg/tree/main/EEG%20signals)
 
 - .edf->[EEG signals (edf)](https://github.com/ttlabtuat/musicattentioneeg/tree/main/EEG%20signals%20(edf))
-We converted from .csv to .edf using pyEDFlib
+converted from .csv using pyEDFlib
 
 # File Name
 *example* 20191120_day1/s_left1_1120_142615_Trial
