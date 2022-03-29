@@ -9,9 +9,9 @@ As the patient ground, disposable electrodes were placed on the wrist.
 Electroretinogram (EOG) signals were recorded simultaneously with the EEG signals.
 EOG electrodes (microelectrode pair (bipolar), TMSi, the Netherlands) were at the corner of the right eye (referenced to the right earlobe) and above the right eye (referenced to the left earlobe).
   
-All channels were amplified using a Refa 72-channel amplifier (TMSi, the Netherlands) against the average of all connected inputs.
+All channels were amplified using a Refa 72-channel amplifier (TMSi) against the average of all connected inputs.
 The signals were sampled at a sampling rate of 2,048 Hz and recorded using Polybench (TMSi).
-For synchronization of auditory stimuli with biological signals and behavioral experiment, audio signals and button signals were recorded by the Refa amplifier through a Dual Channel Isolation Amplifier (TMSi, the Netherlands).
+For synchronization of auditory stimuli with biological signals and behavioral experiment, audio signals and button signals were recorded by the Refa amplifier through a Dual Channel Isolation Amplifier (TMSi).
 
 
 # Participants
@@ -47,7 +47,7 @@ converted from .csv using pyEDFlib
 - 142615: recorded time in JST
 
 # Column
-- Fp1\UTF{2013}PO8: EEGs
+- Fp1-PO8: EEGs
 - BIP65: EOG
 - BIP66: EOG
 - AUX69: audio
@@ -58,7 +58,7 @@ converted from .csv using pyEDFlib
 | ---- | ---- |
 |  8  | EEG recording is ongoing or not |
 |  7  | 0: right-attended task, 1: left-attended task |
-|  6\UTF{2013}1  | Trial number |
+|  6-1  | Trial number |
 
 
 
