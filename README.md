@@ -61,6 +61,8 @@ converted from .csv using pyEDFlib
 |  6-1  | Trial number |
 
 
+# Stimulus
+Music stimulus for each trial is saved.
 
 # Note1
 - Day1: we played auditory stimulus on loudspeakers (705S2, B\&W, UK)
